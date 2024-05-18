@@ -1,0 +1,22 @@
+#Etiquetas de formato
+<h1>"lorem"</h1> = se utilizan para titulos, tienen 6 niveles, siendo el 1 el mas importante.
+<p>"lorem"</p> = se utilizan para parrafos
+<span>lorem</span> = se utiliza para parrafos cortos, pudiendo armar titulos, o parrafos en la misma linea de pagina
+<ol> </ol> = ordered list, basicamente crea una lista en columna separanda las listas con <li>lorem</li>
+<ul> </ul> = unordered list, lista de elementos sin numero de orden, tambien se utiliza <li>lorem</li> para separar una de otra
+<hr /> = linea horizontal que cruza la pantalla, usada mas que nada para dividir y que no se mezcle la informacion de la pagina
+
+#Etiquetas de bloque
+<header>(contenido del encabezado de la pagina)</header> = No cambia visualmente la pagina, pero logra que este mejor estructurado el codigo
+<main>(contenido principal de la pagina)</main> = tampoco cambia visualmente, logra mejor estructurado de codigo
+<footer>(barra final de la pagina)</footer> =
+<section>(seccion)</section> = sirve para establecer secciones
+<article>(articulos)</article> = separa por articulos
+<div>(contenido)</div> = Sirve para agrupar elementos, no afecta el estado visual en general, pero separa las secciones de la pagina
+
+#Etiquetas de contenido
+<img src="ruta de imagen" /> = agrega imagen a la pagina
+<a href="ruta de enlace">(parrafo para el enlace, descripcion, etc)</a> = crea un enlace, el cual el usuario puede clickear en nuestra pagina web
+<form>(contenido)</form> = sirve para crear formularios
+<input type="text, email, etc" name="para que esta destinado ese input"/> = casilla en la que el usuario debe ingresar datos
+<label for="para que esta destinado el label">"texto en el que describimos el input"</label>
